@@ -318,3 +318,41 @@ h2 {
 .project1btn:hover {
   background-color: #2980b9; /* Change color on hover */
 }
+
+@media only screen and (max-width: 450px) {
+
+  body {
+    background: linear-gradient(#003366 0%, #75a2bf 100%);
+  }
+
+  .navbar ul {
+    height: 15px;
+    width: 300px;
+  }
+
+  div.navbar {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    width: 50%;
+    height: 30px;
+  }
+
+  .navbar a {
+    justify-content: left;
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    margin-left: 4px;
+    padding-left: 0px;
+  }
+
+  div.navbar ul {
+    width: 270px;
+  }
+
+  #blocka{
+    display: none;
+  }
+}
