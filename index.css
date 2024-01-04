@@ -322,6 +322,7 @@ h2 {
 @media only screen and (max-width: 450px) {
 
   body {
+    width: 450px;
     background: linear-gradient(#003366 0%, #75a2bf 100%);
   }
 
