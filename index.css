@@ -24,7 +24,15 @@ body {
 @media (max-width: 600px) {
 
   body {
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
     background: linear-gradient(#003366 0%, #75a2bf 100%);
+  }
+
+  div.box {
+    display: none;
   }
 
   .navbar ul {
@@ -37,7 +45,9 @@ body {
     padding: 0px;
     padding-left: 0px;
     margin-left: 0px;
-    width: 50%;
+    margin-right: 0px;
+    padding-right: 0px;
+    /* width: 50%; */
     height: 30px;
   }
 
@@ -51,12 +61,69 @@ body {
   }
 
   div.navbar ul {
-    width: 270px;
+    width: 300px;
+    margin-left: 20px;
+    gap: 7px;
   }
 
-  #blocka{
+  #blocka {
     display: none;
   }
+
+  .box1 {
+    padding: 0px;
+    margin: 0px;
+    display: none;
+  }
+
+  .box-container img {
+    display: none;
+  }
+
+  body .skilldiv {
+    width: 89%;
+    height: 700px;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-top: 51px;
+    margin-left: 6px;
+  }
+
+  div .project {
+    width: 89%;
+    height: 700px;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-top: 51px;
+    margin-left: 6px;
+  }
+
+  body .Education-container {
+    width: 89%;
+    height: 700px;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-top: 51px;
+    margin-left: 6px;
+  }
+
+  body .contactdiv {
+    width: 89%;
+    height: 700px;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-top: 51px;
+    margin-left: 6px;
+  }
+
 }
 
 .navbar {
