@@ -6,7 +6,7 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
   text-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-
+  /* overflow: hidden; */
 }
 
 /* .div1{
@@ -21,9 +21,48 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }  */
 
+@media (max-width: 600px) {
+
+  body {
+    background: linear-gradient(#003366 0%, #75a2bf 100%);
+  }
+
+  .navbar ul {
+    height: 15px;
+    width: 300px;
+  }
+
+  div.navbar {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    width: 50%;
+    height: 30px;
+  }
+
+  .navbar a {
+    justify-content: left;
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    margin-left: 4px;
+    padding-left: 0px;
+  }
+
+  div.navbar ul {
+    width: 270px;
+  }
+
+  #blocka{
+    display: none;
+  }
+}
+
 .navbar {
   margin-left: 35px;
   padding-top: 5px;
+  /* overflow: hidden; */
 }
 
 li {
@@ -104,10 +143,10 @@ ul {
   cursor: pointer;
 }
 
-#selfname:hover{
-background: linear-gradient(to right , #003366 100%, #75a2bf 0%);
-background-clip: text;
-color: transparent;
+#selfname:hover {
+  background: linear-gradient(to right, #003366 100%, #75a2bf 0%);
+  background-clip: text;
+  color: transparent;
 }
 
 #selfintro {
@@ -306,53 +345,20 @@ h2 {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
-  background-color: #3498db; /* Button color */
-  color: #ffffff; /* Text color */
-  border: 1px solid #2980b9; /* Border color */
-  border-radius: 5px; /* Rounded corners */
+  background-color: #3498db;
+  /* Button color */
+  color: #ffffff;
+  /* Text color */
+  border: 1px solid #2980b9;
+  /* Border color */
+  border-radius: 5px;
+  /* Rounded corners */
   cursor: pointer;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-left: 31px;
 }
 
 .project1btn:hover {
-  background-color: #2980b9; /* Change color on hover */
-}
-
-@media only screen and (max-width: 450px) {
-
-  body {
-    width: 450px;
-  }
-
-  .navbar ul {
-    height: 15px;
-    width: 300px;
-  }
-
-  div.navbar {
-    margin: 0px;
-    padding: 0px;
-    padding-left: 0px;
-    margin-left: 0px;
-    width: 50%;
-    height: 30px;
-  }
-
-  .navbar a {
-    justify-content: left;
-    padding: 0px;
-    margin: 0px;
-    font-size: 14px;
-    margin-left: 4px;
-    padding-left: 0px;
-  }
-
-  div.navbar ul {
-    width: 270px;
-  }
-
-  #blocka{
-    display: none;
-  }
+  background-color: #2980b9;
+  /* Change color on hover */
 }
