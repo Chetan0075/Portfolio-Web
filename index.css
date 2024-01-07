@@ -82,47 +82,96 @@ body {
 
   body .skilldiv {
     width: 89%;
-    height: 700px;
+    height: 580px;
     backdrop-filter: blur(10px);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
     margin-top: 51px;
-    margin-left: 6px;
+    margin-left: 21px;
   }
 
   div .project {
-    width: 89%;
-    height: 700px;
+    width: 79%;
+    height: 150px;
     backdrop-filter: blur(10px);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
-    margin-top: 51px;
-    margin-left: 6px;
+    margin-left: 25px;
+    margin-top: 7px;
+    margin-bottom: 41px;
+  }
+
+  div .project h3 {
+    margin-left: 5px;
+  }
+
+  div .project p {
+    margin-left: 5px;
+  }
+
+  button.project1btn{
+    margin-left: 5px;
   }
 
   body .Education-container {
-    width: 89%;
-    height: 700px;
+    width: 79%;
+    height: 500px;
     backdrop-filter: blur(10px);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
-    margin-top: 51px;
-    margin-left: 6px;
+    margin-left: 25px;
+    margin-top: 7px;
+  }
+
+  body .Education-container h2{
+    margin-left: 9px;
+    padding-left: 21px;
+    padding-right: 32px;
+  }
+
+  body .Education-container li{
+    margin-left: 5px;
+    padding-left: 10px;
+    font-size: 15px;
   }
 
   body .contactdiv {
-    width: 89%;
-    height: 700px;
+    width: 79%;
+    height: 450px;
     backdrop-filter: blur(10px);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
-    margin-top: 51px;
-    margin-left: 6px;
+    margin-left: 40px;
+    margin-top: 7px;
+    margin-bottom: 41px;
   }
+
+  body .contactdiv h2{
+    margin-left: 1px;
+    padding-left: 15px;
+  }
+
+  #EmailId{
+    margin-left: 1px;
+  }
+
+  .blockb{
+display: none;
+  }
+
+  body .contactdiv p{
+    margin-left: 2px;
+    padding-left: 2px;
+  }
+
+div #projecttext{
+  margin-bottom: 15px;
+}
+
 
 }
 
